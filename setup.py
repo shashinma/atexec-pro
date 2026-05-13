@@ -23,7 +23,7 @@ setup(
     scripts=["atexec-pro.py"],
     python_requires=">=3.6",
     install_requires=[
-        "cmd2>=2.4.3",
+        "cmd2>=2.4.3,<2.5.0",
         "impacket>=0.11.0",
         "pycryptodome>=3.20.0",
     ],
